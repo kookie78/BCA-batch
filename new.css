@@ -1,0 +1,47 @@
+/* selectors:
+1. universal selector : *
+2. simple selectors:
+ i. element selector : tag
+ii. class sector: class attributes defined by .(dot)
+iii. ID selector:id attributes defined by #
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: boprder border-box;
+}
+body{
+background-color:rgb(33, 239, 239);
+}
+.first{
+    height:500px ;
+    width: 80%;
+    background-color: rgb(231, 58, 11);
+    margin: 50px auto;
+}
+.class{
+    background-color: rgb(122, 177, 4);
+    height: 175px;
+    padding: 50px 50px;
+    text-align: auto;
+    margin: center;
+    border: 5px solid rgb(87, 5, 162);
+   }
+#main{
+    margin:20px;
+    border-radius: 10px;
+    background-color:red ;
+    color: aliceblue;
+
+}
+
+.second{
+    height: 100vh;
+    background-color: tomato;
+}
+.box{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 20px;
+}
